@@ -1,3 +1,4 @@
+# EC2 → S3 access
 resource "aws_iam_role" "ec2_role" {
   name = "ec2-s3-role"
 
